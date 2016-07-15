@@ -1,0 +1,25 @@
+{
+  "name": "Tanaka733.AspNetCore.DataProtection.Redis",
+  "version": "0.1.2-alpha-*",
+  "description": "Experimental library for ASP.NET Core DataProctetion with Redis",
+  "copyright": "tanaka733 2016",
+  "authors": [
+    "tanaka_733"
+  ],
+  "language": "en-US",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.DataProtection": "1.0.0",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+    "Ngonzalez.StackExchange.Redis": "1.0.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    }
+  }
+}
