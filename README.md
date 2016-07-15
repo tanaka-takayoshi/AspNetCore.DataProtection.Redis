@@ -6,7 +6,7 @@ This library is an Experimental implementation for ASP.NET Core Data Protection 
 ## How to Use
 
 Add ``Tanaka733.AspNetCore.DataProtection.Redis`` and other dependencies.
-```
+```json
 {
   "dependencies": {
     "Microsoft.AspNetCore.DataProtection": "1.0.0",
@@ -24,12 +24,12 @@ Add ``Tanaka733.AspNetCore.DataProtection.Redis`` and other dependencies.
         "portable-net45+win8"
       ]
     }
-  },
+  }
 }
 ```
 
 In Startup.cs
-```
+```cs
 public void ConfigureServices(IServiceCollection services)
 {
     var host = Environment.GetEnvironmentVariable("REDIS_HOST"); //retrieve Redis host from env or other way.
